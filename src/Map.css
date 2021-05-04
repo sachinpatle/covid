@@ -1,0 +1,30 @@
+ .compmap{
+    height: 500px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 16px;
+    box-shadow:  0 0 8px  -4px rgb(0,0,0,0.5);
+
+} 
+
+.compmap .leaflet-container{
+height: 100%;
+}
+
+.compmap .leaflet {
+    height: 300px;
+    width: 100%;
+  }
+  .popup_flag{
+      height: 80px;
+      width: 100%;
+      background-size: cover;
+      border-radius: 8px;
+  }
+  .popup_name{
+font-size: 20px;
+font-weight: bold;
+color: grey;
+
+  }
